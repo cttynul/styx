@@ -1,17 +1,15 @@
 # 📊 Styx: Your Digital Sentry Against Vulnerabilities
 
-<p style="text-align: center;">
-  ![Styx Logo](https://i.imgur.com/P0lQBF7.png)
-</p>
+![Styx Logo](https://i.imgur.com/P0lQBF7.png)
 
 Welcome to the **Styx** repository! Are you ready to bid farewell to yellowed Excel sheets and dashboards that look like they were designed by a caveman? Great, because this application is here to save your day (and maybe your job) from the relentless assault of cyber vulnerabilities.
 
 We've crafted this marvel to transform raw asset and vulnerability data into **crisp, digestible KPIs**. Imagine: instead of sweating bullets trying to figure out how many machines are running an obsolete OS, our app spits it out in a blink of an eye. Magic? Nah, it's just Python and a sprinkle of genius! ✨
 
 ---
-<p style="text-align: center;">
+
 ## [✨ DEMO LIVE HERE ✨](https://cttynul.github.io/styx)
-</p>
+
 ---
 
 ## 🎯 What Does This MIRACLE Do?
