@@ -1,6 +1,8 @@
 # 📊 Styx: Your Digital Sentry Against Vulnerabilities
 
-![Styx Logo](https://i.imgur.com/P0lQBF7.png)
+<p align="center">
+  <img alt="Styx" src="https://i.imgur.com/P0lQBF7.png" />
+</p>
 
 Welcome to the **Styx** repository! Are you ready to bid farewell to yellowed Excel sheets and dashboards that look like they were designed by a caveman? Great, because this application is here to save your day (and maybe your job) from the relentless assault of cyber vulnerabilities.
 
@@ -19,7 +21,7 @@ In a nutshell, the KPI Monitor App is your best friend for:
 * **Tracking Assets & Vulnerabilities**: Who said tracking was boring? We make it sexy.
 * **Real-time KPI Calculation**: Instantly discover how many servers are sieves and how many are fortresses.
 * **SLA at a Glance**: Are you behind on patching? The app might make you feel a little guilty, but with precise data!
-* **Flexible Data Sources**: Whether you're a CSV fanatic, an SQL-addicted dev, or a MongoDB guru, we've got your back. Just a tiny tweak in `config.yml` and you're good to go!
+* **Unflexible Data Sources**: Only CSVs baby, but you already have a nice super premium security scan software that can easly export everything in a CSV.
 
 
 ## 🛠️ What You Need to Get This Thing Running (It's Not Magic, It's Tech!)
@@ -66,8 +68,8 @@ You should see `Uvicorn running on http://127.0.0.1:8000`. Feel free to click, i
 If you want to feel like a true hacker (or just want it to work headache-free):
 
 ```bash
-docker build -t kpi-monitor-app .
-docker run -p 8000:8000 kpi-monitor-app
+docker build -t styx-backend .
+docker run -p 8000:8000 styx-backend
 ```
 
 And voilà! Your app is ready to conquer the world (or at least monitor your vulnerabilities).
